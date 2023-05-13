@@ -43,7 +43,7 @@ main:
             xor.b	#01h, &P1OUT			;Toggle LED (LEDi tersledik)
 
 button_not_pressed:
-			jmp      main                   ;skip the loop
+			jmp  main                       ;skip the loop
 
 
 
